@@ -17,7 +17,7 @@
   <remap from="odom" to="odometry/filtered" />
   <!-- remap from="cmd_vel" to="cmd_vel_filtered" />-->
  <remap from="cmd_vel" to="/navigation/cmd_vel" />
- <remap from="move_base/local_costmap/costmap" to="costmap_topic" />
+
 
  </node>
 

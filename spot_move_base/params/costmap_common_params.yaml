@@ -18,11 +18,8 @@ footprint_padding: 0.1
 plugins:
 
 - {name: obstacles_layer, type: "costmap_2d::ObstacleLayer"}
-- {name: simple_layer, type: "simple_layer_namespace::SimpleLayer"}
 - {name: social_layer, type: "social_navigation_layers::ProxemicLayer"}
 - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
-
-
 
 
 obstacles_layer:
@@ -39,6 +36,3 @@ social_layer:
   amplitude: 254
   covariance: 1.25
   factor: 5.0
-
-simple_layer:
-  enabled: false
