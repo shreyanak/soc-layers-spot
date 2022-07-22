@@ -27,6 +27,12 @@ Go to workspace with people detection algorithm (https://github.com/yzrobot/onli
 source devel/setup.bash
 roslaunch object3d_detector object3d_detector.launch
 ```
+In RVIZ, add Map display for the costmap and Polygon display for robot footprint
+
+
+https://user-images.githubusercontent.com/98352313/180490775-96105d61-7100-45eb-91a3-0dc3c3bc2f5f.mp4
+
+
 # Parameters
 Adjust parameters for the gaussian surface in spot_move_base/costmap_common_params.yaml
 ```
