@@ -20,6 +20,7 @@ In a new terminal window:
 Go to workspace with people detection algorithm (https://github.com/yzrobot/online_learning)
 
 ```
+source devel/setup.bash
 roslaunch object3d_detector object3d_detector.launch
 ```
 # Parameters
