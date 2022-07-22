@@ -7,6 +7,10 @@ Applying ROS's social_naviagtion_layers plugin to rosbags in the SCAND dataset t
 ```
 cd catkin_ws/src
 git clone <repo link>
+```
+Follow Install & Build section and download required packages: https://github.com/yzrobot/online_learning
+
+```
 catkin build
 ```
 
